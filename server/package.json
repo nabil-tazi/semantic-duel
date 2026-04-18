@@ -1,0 +1,25 @@
+{
+  "name": "@semantic-duel/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsx watch --env-file=../.env src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node --env-file=../.env dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@semantic-duel/shared": "*",
+    "fastify": "^5.1.0",
+    "openai": "^4.73.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

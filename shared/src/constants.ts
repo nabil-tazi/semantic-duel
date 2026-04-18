@@ -1,0 +1,9 @@
+export const MAX_PLAYERS = 20;
+export const MIN_PLAYERS = 2;
+export const TOTAL_ROUNDS = 5;
+export const ROUND_DURATION_MS = 30_000;
+export const REVEAL_DELAY_MS = 5_000;
+export const MAX_WORD_LENGTH = 40;
+export const MAX_DISPLAY_NAME_LENGTH = 20;
+export const ROOM_CODE_LENGTH = 6;
+export const SESSION_IDLE_TIMEOUT_MS = 10 * 60 * 1000;
